@@ -1,0 +1,37 @@
+#grid {
+    min-width: 306px;
+    max-width: 306px;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+
+#grid .box {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1, h5 {
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    max-height: 2rem;
+    text-align: center;
+    color: darkred;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
