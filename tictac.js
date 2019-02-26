@@ -31,16 +31,18 @@ function reset () {
     box7.innerHTML = "";
     box8.innerHTML = "";
     box9.innerHTML = "";
-    xoMark = 0;
+    enabled = true
 
     // to alternate the turns between players for the next games
     if (currentPlayer == 1) {   
         currentPlayer = 2;
         playerTurn.innerHTML = "O starts!";
+        xoMark = 1;
     }
     else if (currentPlayer == 2) {
         currentPlayer = 1;
         playerTurn.innerHTML = "X starts!";
+        xoMark = 0;
     }
 
     //display between win and turn message
